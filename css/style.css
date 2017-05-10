@@ -67,6 +67,7 @@ nav.navbar {
 #about {
   min-height: 600px;
 
+
 }
 #about h2 {
   color: #fff;
@@ -101,9 +102,33 @@ nav.navbar {
 
 .caption h3 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
 .caption p {
   font-family: 'Roboto', sans-serif;;
 }
 /*====End Projects=====*/
+
+/*=====Contact=====*/
+.contact {
+  background-color: #2f4172;
+}
+
+#contact {
+  min-height: 700px;
+  padding-top: 200px;
+  /*padding-bottom: 150px;*/
+}
+
+#contact h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+  color: #b8c1db;
+}
+
+#contact span {
+  color: #2f4172;
+}
+/*=====End Contact=====*/
