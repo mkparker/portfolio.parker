@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
+
 /*=====Navbar=====*/
 .navbar-default {
-  /*background-color: transparent;*/
   border-color: transparent;
   height: 75px;
   background-color: #2f4172;
@@ -18,14 +18,11 @@
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-  /*color: #f8512f;*/
-  /*background-color: rgba(17, 17, 17, .2);*/
   color: #b8c1db;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #FCFCFC;
-  /*text-shadow: 1px 1px 2px #0a0a0a;*/
 }
 
 nav.navbar {
@@ -60,12 +57,12 @@ nav.navbar {
 
 /*=====About=====*/
 .container-fluid {
-  background-color: #2f4172;
   margin: 0;
 }
 
 #about {
-  min-height: 600px;
+  min-height: 800px;
+  background-color: #2f4172;
 
 
 }
@@ -93,7 +90,7 @@ nav.navbar {
   background-image: url('../img/stone.jpg');
   background-size: cover;
   background-position: center;
-  min-height: 600px;
+  min-height: 800px;
 }
 
 .thumbnail {
@@ -119,6 +116,7 @@ nav.navbar {
   min-height: 700px;
   padding-top: 200px;
   /*padding-bottom: 150px;*/
+  background-color: #2f4172;
 }
 
 #contact h1 {
@@ -131,4 +129,39 @@ nav.navbar {
 #contact span {
   color: #2f4172;
 }
+
+
 /*=====End Contact=====*/
+
+/*=====Footer======*/
+
+#social-media a {
+    color: #b8c1db;
+}
+
+#social-media a:hover {
+    color: #fff;
+}
+
+#social-media, #copyright {
+  background-color: #2f4172;
+  min-height: 50px;
+}
+
+.container p {
+  color: #b8c1db;
+}
+
+#copyright {
+    font-family: 'Roboto'. sans-serif;
+    font-size: 10px;
+    color: #b8c1db;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:500px) {
+  #social-media a {
+    color: #f00;
+  }
+}
+/*======End Footer=====*/
