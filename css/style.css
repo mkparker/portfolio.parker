@@ -4,7 +4,6 @@
 
 /*=====Navbar=====*/
 .navbar-default {
-  /*background-color: transparent;*/
   border-color: transparent;
   height: 75px;
   background-color: #2f4172;
@@ -19,14 +18,11 @@
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-  /*color: #f8512f;*/
-  /*background-color: rgba(17, 17, 17, .2);*/
   color: #b8c1db;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #FCFCFC;
-  /*text-shadow: 1px 1px 2px #0a0a0a;*/
 }
 
 nav.navbar {
@@ -61,7 +57,6 @@ nav.navbar {
 
 /*=====About=====*/
 .container-fluid {
-  /*background-color: #2f4172;*/
   margin: 0;
 }
 
@@ -134,12 +129,14 @@ nav.navbar {
 #contact span {
   color: #2f4172;
 }
+
+
 /*=====End Contact=====*/
 
 /*=====Footer======*/
 
 #social-media a {
-    color: #fff;
+    color: #b8c1db;
 }
 
 #social-media a:hover {
@@ -155,11 +152,16 @@ nav.navbar {
   color: #b8c1db;
 }
 
-
-/*#copyright {
-    text-align: right;
+#copyright {
+    font-family: 'Roboto'. sans-serif;
     font-size: 10px;
-    color: white;
-    padding-right: 10px;
-}*/
+    color: #b8c1db;
+    padding-top: 5px;
+}
+
+@media screen and (max-width:500px) {
+  #social-media a {
+    color: #f00;
+  }
+}
 /*======End Footer=====*/
